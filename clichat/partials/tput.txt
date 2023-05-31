@@ -1,0 +1,32 @@
+    title_width = int(cnf["cnf['init_width']"] + (len(cnf["separator"]) / 2) - (len("<SOME_TITLE>") / 2))
+
+# WINDOW START
+    with open("<SOME_NAME>.bash", "w") as f:
+         f.write("#!/usr/bin/env bash\n\n")
+         f.write("tput clear\n\n")
+         f.write(f"tput cup {cnf['init_pos']}\n")
+         f.write(f"tput setaf {cnf['title_color']}\n")
+         f.write("tput bold\n")
+         f.write('echo "<SOME_TITLE>"\n')
+         f.write("tput sgr0\n\n")
+         f.write(f"tput cup {cnf['separator_height']} {cnf['init_width']}\n")
+         f.write(f"echo '{cnf['separator']}'\n")
+
+# PRINTING TO THE WINDOW
+         f.write(f"tput cup {cnf['separator_height'] + 2} {cnf['init_width']}\n")
+         f.write(f'echo "{<SOME_TEXT_STRING>_str}"\n')
+
+# COLLECTING VAR VALUE FROM BASH SCRIPT
+         f.write(f"tput cup {cnf['separator_height'] + 6} {cnf['init_width']}\n")
+         f.write(f'read -p "{<SOME_VAR>_str}: " choice\n')
+         f.write('echo "${choice}" > <SOME_VAR>_choice.txt\n')
+
+# WINDOW END
+         f.write("tput clear\n")
+         f.write("tput sgr0\n")
+         f.write("tput rc")
+
+    subprocess.run("sudo chmod +x <SOME_NAME>.bash", cwd=os.getcwd(), shell=True)
+    subprocess.run("./<SOME_NAME>.bash", cwd=os.getcwd(), shell=True)
+
+

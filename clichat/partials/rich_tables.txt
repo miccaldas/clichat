@@ -1,0 +1,46 @@
+"""
+Shows all entries in the database.
+"""
+import pickle
+from dotenv import load_dotenv
+from rich.console import Console
+from rich.table import Table
+from pwd_encrypted.configs.config import Efs
+
+load_dotenv()
+YOURPROJECTfldr = os.getenv("YOURPROJECT_LOC")   # PUT THIS IN FORNT OF ALL PATHS. DON'T TRUST RELATIVE PATHS.
+
+
+
+    """
+    Generates a Rich table with the db's search results.
+    """
+
+    entries = []
+    with open(f"{pwdfldr}/see_db_call.bin", "rb") as f:
+        while True:
+            try:
+                entries.append(pickle.load(f))
+            except EOFError:
+                break
+    results = [i for sublst in entries for i in sublst]
+
+    vals = [(str(a), b, ...) for a, b... in results]         # YOU'll ALWAYS HAVE TO CONVERT THE INT VALUE.
+    columns = ["ID", "SITE", ...]
+
+    table = Table(highlight=True, border_style="#898121")    # COLORS USED IN PWD_ENCRYPTED
+    rows = []
+    for v in vals:
+        rows.append([v[0], v[1], v[2]...)
+
+    for column in columns:
+        table.add_column(column, justify="center")
+    for row in rows:
+        table.add_row(*row)
+
+    console = Console()
+    console.print("\n")
+    console.print(table, justify="center")
+    console.print("\n")
+    # REMEMBER YOU CAN CENTER EVERYTHING THAT IS PRINTED TO CONSOLE: THAT IS NOT THE CASE WITH PROMPTS OR MULTILINE CONTENT. WITH THE FIRST
+    # YOU CAN ADD SPACES BEFORE THE STATEMENT: HACKY, BUT IT WORKS.

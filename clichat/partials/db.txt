@@ -1,0 +1,13 @@
+    try:
+        conn = connect(host="localhost", user="mic", password="xxxx", database="****INSERT_DB_NAME****")
+        cur = conn.cursor()
+        query = "****INSERT_QUERY****"
+        cur.execute(query)
+        conn.commit()
+    except Error as e:
+        print("Error while connecting to db", e)
+    finally:
+        if conn:
+            conn.close()
+
+

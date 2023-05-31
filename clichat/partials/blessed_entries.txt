@@ -1,0 +1,36 @@
+# EXAMPLE USING PYTHON'S BLESSED LIBRARY. GOOD FOR A NO FUSS ALTERNATIVE.
+from blessed import Terminal
+from mysql.connector import Error, connect
+
+    term = Terminal()
+
+    query = ""
+    try:
+        conn = connect(host="localhost", user="mic", password="xxxx", database="")
+        cur = conn.cursor()
+        cur.execute(query)
+        records = cur.fetchall()
+    except Error as e:
+        print("Error while connecting to the db", e)
+    finally:
+        if conn:
+            conn.close()
+
+    for record in records:
+        record = (
+            term.bold(str(record[0])),       # NEEDED IF YOU HAVE AN ID INT FIELD
+            term.bold(record[1]),
+            term.bold(record[2]),
+            term.red_bold(record[3]),        # A LITTLE COLOR...
+            term.bold(record[4]),
+            term.bold(record[5]),
+            term.bold(record[6]),
+            term.bold(record[7].strftime("%d-%m-%Y_%H:%M")),       # YOU'LL HAVE TO CONVERT TIMESTAMP TO STRFTIME
+            term.bold(
+                "--------------------------------------------------------------------"
+            ),
+        )
+
+        for line in record:
+            print("\n".join(term.wrap(line, width=145, initial_indent=" " * 40)))
+
