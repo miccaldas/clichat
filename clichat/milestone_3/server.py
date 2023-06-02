@@ -17,22 +17,6 @@ def type_watch(source, value):
 snoop.install(watch_extras=[type_watch])
 
 
-host = ""
-port = 2004
-ThreadCount = 0
-
-s_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-
-try:
-    s_server.bind((host, port))
-except socket.error as e:
-    print(str(e))
-print("Socket is listening")
-s_server.listen(5)
-clients = []
-
-
 @snoop
 def broadcast(connection, addr, response):
     for client in clients:
@@ -52,39 +36,24 @@ def multi_client(connection):
     connection.close()
 
 
-def recv_available():
-    """
-    Ascertains if there's anything on the
-    TCP receive buffer for a given address.
-    """
-    adr = f'"{addr[0]}:{str(addr[1])}"'
-
-    ss = subprocess.Popen(
-        ["ss", "-a"],
-        stdout=subprocess.PIPE,
-    )
-    grep = subprocess.Popen(
-        ["grep", f"{adr}"],
-        stdin=ss.stdout,
-        stdout=subprocess.PIPE,
-    )
-    awk = subprocess.Popen(
-        ["awk", "{if ($3 > 0) print $3}"],
-        stdin=grep.stdout,
-        stdout=subprocess.PIPE,
-    )
-    end_of_pipe = awk.stdout
-
-    return end_of_pipe
-
+host = ""
+port = 2004
+ThreadCount = 0
 
 while True:
-    connection, addr = s_server.accept()
-    clients.append(connection)
-    print(f"Connected to: {addr[0]}: {str(addr[1])}")
-    recbuffer = recv_available()
-    print(f"recv buffer is {recbuffer} in size.")
-    _thread.start_new_thread(multi_client, (connection,))
-    ThreadCount += 1
-    print(f"Thread number: {ThreadCount}")
-s_server.close()
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s_server:
+        s_server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        try:
+            s_server.bind((host, port))
+        except socket.error as e:
+            print(str(e))
+        print("Socket is listening")
+        s_server.listen(5)
+        clients = []
+
+        connection, addr = s_server.accept()
+        print(f"Connected to: {addr[0]}: {str(addr[1])}")
+        clients.append(connection)
+        _thread.start_new_thread(multi_client, (connection,))
+        ThreadCount += 1
+        print(f"Thread number: {ThreadCount}")

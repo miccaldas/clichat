@@ -1,0 +1,551 @@
+Netid State     Recv-Q Send-Q                                     Local Address:Port                             Peer Address:Port     Process
+nl    UNCONN    0      0                                                   rtnl:vivaldi-bin/120690                           *                
+nl    UNCONN    0      0                                                   rtnl:NetworkManager/445                           *                
+nl    UNCONN    0      0                                                   rtnl:vivaldi-bin/120729                           *                
+nl    UNCONN    0      0                                                   rtnl:kernel                                       *                
+nl    UNCONN    896    0                                                   rtnl:dockerd/938                                  *                
+nl    UNCONN    0      0                                                   rtnl:891                                          *                
+nl    UNCONN    0      0                                                   rtnl:vivaldi-bin/120729                           *                
+nl    UNCONN    0      0                                                   rtnl:vivaldi-bin/120690                           *                
+nl    UNCONN    0      0                                                   rtnl:891                                          *                
+nl    UNCONN    0      0                                                   rtnl:NetworkManager/445                           *                
+nl    UNCONN    896    0                                                tcpdiag:kernel                                       *                
+nl    UNCONN    4352   0                                                tcpdiag:ss/211022                                    *                
+nl    UNCONN    0      0                                                   xfrm:kernel                                       *                
+nl    UNCONN    0      0                                                   xfrm:dockerd/938                                  *                
+nl    UNCONN    0      0                                                selinux:kernel                                       *                
+nl    UNCONN    0      0                                                  audit:systemd/1                                    *                
+nl    UNCONN    0      0                                                  audit:kernel                                       *                
+nl    UNCONN    0      0                                              fiblookup:kernel                                       *                
+nl    UNCONN    0      0                                              connector:kernel                                       *                
+nl    UNCONN    0      0                                                    nft:kernel                                       *                
+nl    UNCONN    0      0                                                    nft:dockerd/938                                  *                
+nl    UNCONN    0      0                                                 uevent:-247656624                                   *                
+nl    UNCONN    0      0                                                 uevent:-1344427380                                  *                
+nl    UNCONN    0      0                                                 uevent:systemd/1093                                 *                
+nl    UNCONN    0      0                                                 uevent:systemd-logind/426                           *                
+nl    UNCONN    0      0                                                 uevent:-789057576                                   *                
+nl    UNCONN    0      0                                                 uevent:-1131320824                                  *                
+nl    UNCONN    0      0                                                 uevent:NetworkManager/445                           *                
+nl    UNCONN    0      0                                                 uevent:pulseaudio/1652                              *                
+nl    UNCONN    0      0                                                 uevent:upowerd/1424                                 *                
+nl    UNCONN    0      0                                                 uevent:kernel                                       *                
+nl    UNCONN    0      0                                                 uevent:-1471781524                                  *                
+nl    UNCONN    0      0                                                 uevent:udisksd/105324                               *                
+nl    UNCONN    0      0                                                 uevent:-2012973479                                  *                
+nl    UNCONN    0      0                                                 uevent:-680877767                                   *                
+nl    UNCONN    0      0                                                 uevent:-425644682                                   *                
+nl    UNCONN    0      0                                                 uevent:systemd/1                                    *                
+nl    UNCONN    0      0                                                 uevent:-464483196                                   *                
+nl    UNCONN    0      0                                                 uevent:vivaldi-bin/120690                           *                
+nl    UNCONN    0      0                                                 uevent:Xorg/1165                                    *                
+nl    UNCONN    0      0                                                 uevent:-1744254617                                  *                
+nl    UNCONN    0      0                                                 uevent:-247656624                                   *                
+nl    UNCONN    0      0                                                 uevent:-1344427380                                  *                
+nl    UNCONN    0      0                                                 uevent:vivaldi-bin/120690                           *                
+nl    UNCONN    0      0                                                 uevent:udisksd/105324                               *                
+nl    UNCONN    0      0                                                 uevent:pulseaudio/1652                              *                
+nl    UNCONN    0      0                                                 uevent:-1471781524                                  *                
+nl    UNCONN    0      0                                                 uevent:upowerd/1424                                 *                
+nl    UNCONN    0      0                                                 uevent:-425644682                                   *                
+nl    UNCONN    0      0                                                 uevent:-1744254617                                  *                
+nl    UNCONN    0      0                                                 uevent:Xorg/1165                                    *                
+nl    UNCONN    0      0                                                 uevent:systemd/1093                                 *                
+nl    UNCONN    0      0                                                 uevent:-675624861                                   *                
+nl    UNCONN    0      0                                                 uevent:-789057576                                   *                
+nl    UNCONN    0      0                                                 uevent:NetworkManager/445                           *                
+nl    UNCONN    0      0                                                 uevent:-1131320824                                  *                
+nl    UNCONN    0      0                                                 uevent:-680877767                                   *                
+nl    UNCONN    0      0                                                 uevent:-464483196                                   *                
+nl    UNCONN    0      0                                                 uevent:systemd-logind/426                           *                
+nl    UNCONN    0      0                                                 uevent:-2012973479                                  *                
+nl    UNCONN    0      0                                                 uevent:systemd/1                                    *                
+nl    UNCONN    0      0                                                   genl:-1544983979                                  *                
+nl    UNCONN    0      0                                                   genl:kernel                                       *                
+nl    UNCONN    0      0                                                   genl:NetworkManager/445                           *                
+nl    UNCONN    0      0                                                   genl:-1544983979                                  *                
+nl    UNCONN    0      0                                             scsi-trans:kernel                                       *                
+u_str ESTAB     0      0                                                      * 742151                                      * 742150          
+u_str ESTAB     0      0                                                      * 665631                                      * 665632          
+u_str ESTAB     0      0                                                      * 2794                                        * 23078           
+u_str ESTAB     0      0                                     /run/user/1000/bus 24011                                       * 21274           
+u_str ESTAB     0      0                                                      * 659365                                      * 659364          
+u_str ESTAB     0      0                                                      * 23158                                       * 25641           
+u_str ESTAB     0      0                                                      * 664936                                      * 664937          
+u_str ESTAB     0      0                                                      * 664900                                      * 664901          
+u_str ESTAB     0      0                                                      * 666739                                      * 666740          
+u_str ESTAB     0      0                                                      * 23944                                       * 24879           
+u_str ESTAB     0      0                                                      * 849530                                      * 849531          
+u_str ESTAB     0      0                                                      * 535736                                      * 530317          
+u_str ESTAB     0      0                                                      * 862293                                      * 862292          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 18896                                       * 15832           
+u_str ESTAB     0      0                                     /run/user/1000/bus 814812                                      * 813786          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 663703                                      * 664729          
+u_str ESTAB     0      0                                                      * 18712                                       * 16825           
+u_dgr ESTAB     0      0                                                      * 18725                                       * 18726           
+u_str ESTAB     0      0                                                      * 659363                                      * 659362          
+u_str ESTAB     0      0                                                      * 855136                                      * 855135          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 530352                                      * 532418          
+u_str ESTAB     0      0                                                      * 670554                                      * 670555          
+u_str ESTAB     0      0                                                      * 667681                                      * 667682          
+u_str ESTAB     0      0                                                      * 666667                                      * 666666          
+u_str ESTAB     0      0                                                      * 904105                                      * 904106          
+u_str ESTAB     0      0                                                      * 832691                                      * 832690          
+u_str ESTAB     0      0                                                      * 662100                                      * 662101          
+u_str ESTAB     0      0                                                      * 662005                                      * 662006          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 17161                                       * 18901           
+u_str ESTAB     0      0                                                      * 24681                                       * 24682           
+u_str ESTAB     0      0                                                      * 828409                                      * 828410          
+u_str ESTAB     0      0                                                      * 661292                                      * 661291          
+u_str ESTAB     0      0                                                      * 664721                                      * 664720          
+u_str ESTAB     0      0                                                      * 665624                                      * 665623          
+u_str ESTAB     0      0                                                      * 2905                                        * 21283           
+u_str ESTAB     0      0                                                      * 665083                                      * 665082          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 658231                                      * 659351          
+u_dgr UNCONN    0      0                          /run/user/1000/systemd/notify 23869                                       * 0               
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 15917                                       * 883             
+u_str LISTEN    0      4096                      /run/user/1000/systemd/private 23872                                       * 0               
+u_str ESTAB     0      0                                                      * 764785                                      * 764784          
+u_str LISTEN    0      4096                                  /run/user/1000/bus 23880                                       * 0               
+u_dgr UNCONN    0      0                                                      * 27147                                       * 0               
+u_dgr ESTAB     0      0                                                      * 21796                                       * 21797           
+u_str ESTAB     0      0                                     /run/user/1000/bus 2813                                        * 20172           
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 20162                                       * 23930           
+u_str ESTAB     0      0                                                      * 826189                                      * 826190          
+u_str LISTEN    0      4096                      /run/user/1000/gnupg/S.dirmngr 23882                                       * 0               
+u_str ESTAB     0      0                                                      * 670399                                      * 670398          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 663705                                      * 664731          
+u_str LISTEN    0      4096            /run/user/1000/gnupg/S.gpg-agent.browser 23884                                       * 0               
+u_str ESTAB     0      0                                                      * 885743                                      * 885742          
+u_str LISTEN    0      4096              /run/user/1000/gnupg/S.gpg-agent.extra 23886                                       * 0               
+u_str LISTEN    0      4096                /run/user/1000/gnupg/S.gpg-agent.ssh 23888                                       * 0               
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 2263                                        * 772             
+u_str ESTAB     0      0                                                      * 745839                                      * 745840          
+u_str LISTEN    0      4096                    /run/user/1000/gnupg/S.gpg-agent 23890                                       * 0               
+u_dgr ESTAB     0      0                                                      * 18867                                       * 18550           
+u_str ESTAB     0      0                                                      * 878139                                      * 878138          
+u_str ESTAB     0      0                                                      * 863264                                      * 863265          
+u_str ESTAB     0      0                                                      * 689763                                      * 689762          
+u_str LISTEN    0      5                          /run/user/1000/p11-kit/pkcs11 23892                                       * 0               
+u_str ESTAB     0      0                                                      * 672230                                      * 672231          
+u_str ESTAB     0      0                                                      * 665758                                      * 665759          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 25651                                       * 20293           
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 16375                                       * 24936           
+u_str LISTEN    0      4096                           /run/user/1000/pipewire-0 23894                                       * 0               
+u_str ESTAB     0      0                                                      * 883492                                      * 883491          
+u_str ESTAB     0      0                                     /run/user/1000/bus 2814                                        * 24890           
+u_dgr UNCONN    0      0                                                      * 19713                                       * 0               
+u_str ESTAB     0      0                                                      * 659369                                      * 659368          
+u_str LISTEN    0      5                            /run/user/1000/pulse/native 23896                                       * 0               
+u_str ESTAB     0      0                                                      * 22728                                       * 2591            
+u_str ESTAB     0      0                                                      * 667310                                      * 667309          
+u_str LISTEN    0      4096                             /tmp/mongodb-27017.sock 462745                                      * 0               
+u_str ESTAB     0      0                                                      * 30041                                       * 30040           
+u_str ESTAB     0      0                                                      * 661168                                      * 661169          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 23078                                       * 2794            
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 662882                                      * 658348          
+u_str ESTAB     0      0                                                      * 677207                                      * 677208          
+u_str ESTAB     0      0                                                      * 658233                                      * 664719          
+u_str ESTAB     0      0                                                      * 764782                                      * 764783          
+u_dgr ESTAB     0      0                                                      * 23871                                       * 23870           
+u_str ESTAB     0      0                                                      * 906036                                      * 906037          
+u_str ESTAB     0      0                                                      * 664730                                      * 663704          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 530304                                      * 531338          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 18893                                       * 18877           
+u_str ESTAB     0      0                                                      * 670411                                      * 670410          
+u_str LISTEN    0      4096                                   /tmp/.X11-unix/X0 23928                                       * 0               
+u_str ESTAB     0      0                                                      * 662028                                      * 662027          
+u_str ESTAB     0      0                                                      * 661837                                      * 661836          
+u_str ESTAB     0      0                                                      * 665436                                      * 665435          
+u_str ESTAB     0      0                                                      * 665759                                      * 665758          
+u_dgr ESTAB     0      0                                                      * 19383                                       * 18550           
+u_str ESTAB     0      0                                                      * 869251                                      * 871381          
+u_str ESTAB     0      1536                                                   * 664890                                      * 664889          
+u_dgr UNCONN    0      0                                                      * 536790                                      * 0               
+u_str LISTEN    0      4096                    /run/user/1000/pulse/dbus-socket 23352                                       * 0               
+u_str LISTEN    0      4096                        /var/run/docker/metrics.sock 23778                                       * 0               
+u_str ESTAB     0      0                                                      * 22724                                       * 20083           
+u_str ESTAB     0      0                                     /run/user/1000/bus 533201                                      * 536820          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 16369                                       * 2795            
+u_str ESTAB     0      0                        /run/containerd/containerd.sock 20095                                       * 21212           
+u_str ESTAB     0      0                                                      * 678354                                      * 678353          
+u_str ESTAB     0      0                                                      * 673099                                      * 673098          
+u_str ESTAB     0      0                                                      * 2326                                        * 15874           
+u_str ESTAB     0      0                                                      * 669438                                      * 669437          
+u_str ESTAB     0      0                                                      * 663912                                      * 663911          
+u_str ESTAB     0      0                                                      * 658348                                      * 662882          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 720719                                      * 723164          
+u_seq ESTAB     0      0                                                      * 659324                                      * 659323          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 27667                                       * 21787           
+u_str ESTAB     0      0                                                      * 530349                                      * 531353          
+u_str ESTAB     0      0                                                      * 670413                                      * 670412          
+u_str ESTAB     0      0                                                      * 887369                                      * 887370          
+u_str ESTAB     0      0                                                      * 664725                                      * 664724          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 15802                                       * 18868           
+u_str ESTAB     0      0                                                      * 672229                                      * 672228          
+u_str ESTAB     0      0                                                      * 24936                                       * 16375           
+u_str ESTAB     0      0                                                      * 884111                                      * 883363          
+u_str ESTAB     0      0                                                      * 872397                                      * 872396          
+u_str ESTAB     0      0                                                      * 688633                                      * 688632          
+u_str ESTAB     0      0                                                      * 22214                                       * 22213           
+u_str ESTAB     0      0                   /run/user/1000/gvfsd/socket-f6ClVicV 531353                                      * 530349          
+u_str LISTEN    0      4096        /var/run/docker/libnetwork/15e3f9ef8601.sock 2644                                        * 0               
+u_dgr ESTAB     0      0                                    /run/systemd/notify 18520                                       * 0               
+u_str ESTAB     0      0                                                      * 888944                                      * 888945          
+u_str ESTAB     0      0                                                      * 888942                                      * 888943          
+u_str ESTAB     0      0                                                      * 670562                                      * 670563          
+u_str ESTAB     0      0                                                      * 662040                                      * 662039          
+u_str ESTAB     0      0                                                      * 666691                                      * 666692          
+u_str ESTAB     0      0                                                      * 666666                                      * 666667          
+u_str LISTEN    0      4096                                /run/systemd/private 18523                                       * 0               
+u_str ESTAB     0      0                                                      * 23930                                       * 20162           
+u_str ESTAB     0      0                                                      * 828208                                      * 828207          
+u_str ESTAB     0      0                                                      * 658230                                      * 662811          
+u_str ESTAB     0      0                                                      * 24867                                       * 21724           
+u_str LISTEN    0      4096          /run/systemd/userdb/io.systemd.DynamicUser 18525                                       * 0               
+u_str ESTAB     0      0                                                      * 742150                                      * 742151          
+u_str ESTAB     0      0                                                      * 664731                                      * 663705          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 530294                                      * 531334          
+u_str ESTAB     0      0                                                      * 2811                                        * 2810            
+u_str ESTAB     0      0                                                      * 15848                                       * 19626           
+u_str LISTEN    0      4096                   /run/systemd/io.system.ManagedOOM 18526                                       * 0               
+u_dgr ESTAB     0      0                                                      * 18721                                       * 18552           
+u_str ESTAB     0      0                                                      * 862292                                      * 862293          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 21327                                       * 2956            
+u_str ESTAB     0      0                                                      * 886044                                      * 886045          
+u_str ESTAB     0      0                                                      * 884649                                      * 884648          
+u_str ESTAB     0      0                                                      * 872396                                      * 872397          
+u_str ESTAB     0      0                                                      * 832693                                      * 832692          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 27673                                       * 24427           
+u_str LISTEN    0      4096                            /run/lvm/lvmpolld.socket 18546                                       * 0               
+u_seq LISTEN    0      4096                               /run/systemd/coredump 18548                                       * 0               
+u_str ESTAB     0      0                                                      * 665658                                      * 665659          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 16825                                       * 18712           
+u_dgr ESTAB     0      0                           /run/systemd/journal/dev-log 18550                                       * 0               
+u_str ESTAB     0      0                                                      * 707                                         * 15792           
+u_dgr ESTAB     0      0                            /run/systemd/journal/socket 18552                                       * 0               
+u_str ESTAB     0      0                                                      * 667309                                      * 667310          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 20083                                       * 22724           
+u_str LISTEN    0      4096                         /run/systemd/journal/stdout 18554                                       * 0               
+u_str ESTAB     0      0                                                      * 886045                                      * 886044          
+u_str ESTAB     0      0                                                      * 879586                                      * 879585          
+u_str ESTAB     1      0                                                      * 879583                                      * 879584          
+u_str ESTAB     0      0                                                      * 27688                                       * 25784           
+u_str ESTAB     0      0                                                      * 20172                                       * 2813            
+u_seq LISTEN    0      4096                                   /run/udev/control 18556                                       * 0               
+u_str ESTAB     0      0                                                      * 661951                                      * 661952          
+u_str ESTAB     0      0                                                      * 535743                                      * 536821          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 20156                                       * 23874           
+u_str ESTAB     0      0                                                      * 662101                                      * 662100          
+u_seq ESTAB     0      0                                                      * 659329                                      * 659328          
+u_seq ESTAB     0      0                                                      * 659327                                      * 659326          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 530295                                      * 535716          
+u_str ESTAB     0      0                                                      * 854140                                      * 854139          
+u_str ESTAB     0      0                                                      * 828410                                      * 828409          
+u_str ESTAB     0      0                                                      * 27732                                       * 23389           
+u_str ESTAB     0      0                                                      * 906038                                      * 906039          
+u_str ESTAB     0      0                                                      * 857967                                      * 857966          
+u_str ESTAB     0      0                                                      * 829703                                      * 829702          
+u_str ESTAB     0      0                                                      * 536820                                      * 533201          
+u_str ESTAB     0      0                                                      * 2358                                        * 2359            
+u_str ESTAB     0      0                                                      * 680130                                      * 680131          
+u_str ESTAB     0      0                                                      * 662984                                      * 662985          
+u_str ESTAB     0      0                                                      * 658352                                      * 658351          
+u_str ESTAB     0      0                                                      * 663911                                      * 663912          
+u_str ESTAB     0      0                                                      * 883491                                      * 883492          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 21724                                       * 24867           
+u_str ESTAB     0      0                                                      * 661285                                      * 661286          
+u_str ESTAB     0      0                                                      * 531338                                      * 530304          
+u_dgr ESTAB     0      0                                                      * 376                                         * 18520           
+u_str ESTAB     0      0                                                      * 711                                         * 15801           
+u_dgr ESTAB     0      0                                                      * 18522                                       * 18521           
+u_str ESTAB     0      0                                     /run/user/1000/bus 531349                                      * 535742          
+u_str ESTAB     0      0                                                      * 855135                                      * 855136          
+u_str ESTAB     0      0                                                      * 828209                                      * 828210          
+u_str ESTAB     0      0                                                      * 658321                                      * 658320          
+u_str LISTEN    0      4096             /run/systemd/journal/io.systemd.journal 374                                         * 0               
+u_str ESTAB     0      0                                                      * 670563                                      * 670562          
+u_str ESTAB     0      0                                                      * 19595                                       * 20774           
+u_str ESTAB     0      0                                                      * 659351                                      * 658231          
+u_dgr ESTAB     0      0                                                      * 27689                                       * 18550           
+u_dgr ESTAB     0      0                                                      * 18875                                       * 18552           
+u_str ESTAB     8      0                                                      * 664889                                      * 664890          
+u_str ESTAB     0      0                                                      * 889641                                      * 889642          
+u_str ESTAB     0      0                                                      * 664737                                      * 664738          
+u_str ESTAB     0      0                                                      * 664729                                      * 663703          
+u_str ESTAB     0      0                                                      * 813786                                      * 814812          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 530296                                      * 536787          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 815                                         * 20796           
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 19626                                       * 15848           
+u_str ESTAB     0      0                                                      * 826190                                      * 826189          
+u_str ESTAB     0      0                                                      * 658349                                      * 658350          
+u_str ESTAB     0      0                                                      * 661952                                      * 661951          
+u_str ESTAB     0      0                                                      * 24427                                       * 27673           
+u_str ESTAB     0      0                                                      * 18890                                       * 18891           
+u_str ESTAB     0      0                                                      * 744                                         * 18894           
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 2591                                        * 22728           
+u_str ESTAB     0      0                                                      * 665629                                      * 665630          
+u_str ESTAB     0      0                                                      * 828210                                      * 828209          
+u_str ESTAB     0      0                                                      * 677208                                      * 677207          
+u_str ESTAB     0      0                                     /run/user/1000/bus 536824                                      * 535767          
+u_str LISTEN    0      4096                         /run/dbus/system_bus_socket 15777                                       * 0               
+u_str ESTAB     0      0                                                      * 667682                                      * 667681          
+u_str ESTAB     0      0                                                      * 532418                                      * 530352          
+u_str LISTEN    0      4096                                    /run/docker.sock 15779                                       * 0               
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 20774                                       * 19595           
+u_str LISTEN    0      1000                           /run/libvirt/libvirt-sock 15780                                       * 0               
+u_str ESTAB     0      0                                                      * 659370                                      * 659371          
+u_str LISTEN    0      20                       /run/libvirt/libvirt-admin-sock 15782                                       * 0               
+u_str ESTAB     0      0                                                      * 854139                                      * 854140          
+u_str ESTAB     0      0                        /run/containerd/containerd.sock 22746                                       * 21213           
+u_str LISTEN    0      1000                        /run/libvirt/libvirt-sock-ro 15784                                       * 0               
+u_str ESTAB     0      0                                                      * 889644                                      * 889643          
+u_str ESTAB     0      0                                                      * 2795                                        * 16369           
+u_str LISTEN    0      4096                         /run/libvirt/virtlockd-sock 15786                                       * 0               
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 24879                                       * 23944           
+u_str ESTAB     0      0                                                      * 18901                                       * 17161           
+u_str LISTEN    0      4096                          /run/libvirt/virtlogd-sock 15788                                       * 0               
+u_str ESTAB     0      0                                                      * 875479                                      * 875480          
+u_str ESTAB     0      0                                                      * 661836                                      * 661837          
+u_str ESTAB     0      0                                                      * 532412                                      * 535738          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 15874                                       * 2326            
+u_dgr ESTAB     0      0                                                      * 733                                         * 18552           
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 15791                                       * 18861           
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 467307                                      * 466422          
+u_str ESTAB     0      0                                                      * 659353                                      * 661128          
+u_str ESTAB     0      0                                                      * 883                                         * 15917           
+u_dgr ESTAB     0      0                                                      * 18521                                       * 18522           
+u_str ESTAB     0      0                                     /run/user/1000/bus 535738                                      * 532412          
+u_str ESTAB     0      0                                                      * 863265                                      * 863264          
+u_str ESTAB     0      0                                                      * 884648                                      * 884649          
+u_str ESTAB     0      0                                                      * 888945                                      * 888944          
+u_str ESTAB     0      0                                                      * 736224                                      * 736225          
+u_str ESTAB     0      0                                                      * 661839                                      * 661838          
+u_str ESTAB     0      0                                                      * 535767                                      * 536824          
+u_str ESTAB     0      0                                                      * 772177                                      * 772176          
+u_str ESTAB     0      0                                                      * 889643                                      * 889644          
+u_str ESTAB     0      0                                                      * 30040                                       * 30041           
+u_str ESTAB     0      0                                                      * 661286                                      * 661285          
+u_str ESTAB     0      0                                                      * 661141                                      * 661140          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 662812                                      * 665625          
+u_str ESTAB     0      0                            /run/user/1000/pulse/native 663052                                      * 664888          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 18894                                       * 744             
+u_str LISTEN    0      4096              /run/systemd/userdb/io.systemd.Machine 18878                                       * 0               
+u_str ESTAB     0      0                                                      * 666736                                      * 666735          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 662811                                      * 658230          
+u_seq ESTAB     0      0                                                      * 659323                                      * 659324          
+u_str ESTAB     0      0                                                      * 23874                                       * 20156           
+u_str ESTAB     0      0                                                      * 697293                                      * 697292          
+u_str ESTAB     0      0                                                      * 535742                                      * 531349          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 21252                                       * 23830           
+u_str ESTAB     0      0                                                      * 670398                                      * 670399          
+u_str ESTAB     0      0                                                      * 885742                                      * 885743          
+u_str ESTAB     0      0                                                      * 854142                                      * 854141          
+u_str ESTAB     0      0                                     /run/user/1000/bus 23389                                       * 27732           
+u_str ESTAB     0      0                                                      * 2956                                        * 21327           
+u_str ESTAB     0      0                                                      * 878138                                      * 878139          
+u_str ESTAB     0      0                                                      * 863263                                      * 863262          
+u_str ESTAB     0      0                                                      * 863262                                      * 863263          
+u_str ESTAB     0      0                                                      * 764783                                      * 764782          
+u_str ESTAB     0      0                                                      * 665435                                      * 665436          
+u_str ESTAB     0      0                                                      * 661288                                      * 661287          
+u_str ESTAB     0      0                                                      * 665659                                      * 665658          
+u_str ESTAB     0      0                                                      * 664724                                      * 664725          
+u_str ESTAB     0      0                                                      * 21212                                       * 20095           
+u_str ESTAB     0      0                                                      * 665082                                      * 665083          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 658232                                      * 659352          
+u_str ESTAB     0      0                                                      * 875480                                      * 875479          
+u_str ESTAB     0      0                                                      * 667679                                      * 667680          
+u_dgr ESTAB     0      0                                                      * 23870                                       * 23871           
+u_str ESTAB     0      0                                                      * 658320                                      * 658321          
+u_str ESTAB     0      0                                                      * 535716                                      * 530295          
+u_str ESTAB     0      0                                     /run/user/1000/bus 2817                                        * 23994           
+u_str ESTAB     0      0                                     /run/user/1000/bus 662813                                      * 658235          
+u_str ESTAB     0      0                                                      * 906039                                      * 906038          
+u_str ESTAB     0      0                                                      * 670412                                      * 670413          
+u_str ESTAB     0      0                                                      * 18861                                       * 15791           
+u_str ESTAB     0      0                                                      * 736225                                      * 736224          
+u_str ESTAB     0      0                                                      * 662039                                      * 662040          
+u_str ESTAB     0      0                                                      * 661997                                      * 661996          
+u_str ESTAB     0      0                                                      * 18891                                       * 18890           
+u_str ESTAB     0      0                                                      * 670555                                      * 670554          
+u_str ESTAB     0      0                                                      * 659352                                      * 658232          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 15792                                       * 707             
+u_str ESTAB     0      0                                                      * 664885                                      * 664886          
+u_dgr ESTAB     0      0                                                      * 2816                                        * 18550           
+u_str ESTAB     0      0                                                      * 673098                                      * 673099          
+u_str ESTAB     0      0                                                      * 664738                                      * 664737          
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 21283                                       * 2905            
+u_str ESTAB     0      0                                                      * 23830                                       * 21252           
+u_str ESTAB     0      0                                                      * 723164                                      * 720719          
+u_str ESTAB     0      0                                                      * 764784                                      * 764785          
+u_str ESTAB     0      0                                                      * 659413                                      * 659414          
+u_str ESTAB     0      0                                                      * 18868                                       * 15802           
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 663701                                      * 664728          
+u_str ESTAB     0      0                                                      * 697292                                      * 697293          
+u_str ESTAB     0      0                                                      * 677206                                      * 677205          
+u_str ESTAB     0      0                                     /run/user/1000/bus 151368                                      * 153453          
+u_str ESTAB     0      0                                                      * 904106                                      * 904105          
+u_str ESTAB     0      0                                                      * 883489                                      * 883490          
+u_str ESTAB     0      0                                                      * 883787                                      * 883786          
+u_str ESTAB     0      0                                                      * 661838                                      * 661839          
+u_str ESTAB     0      0                                                      * 886208                                      * 886207          
+u_str ESTAB     0      0                                                      * 662985                                      * 662984          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 21270                                       * 20207           
+u_str ESTAB     0      0                                                      * 664888                                      * 663052          
+u_str ESTAB     0      0                                                      * 25797                                       * 23325           
+u_str ESTAB     0      0                                                      * 661291                                      * 661292          
+u_str ESTAB     0      0                                                      * 661287                                      * 661288          
+u_str ESTAB     0      0                                                      * 857966                                      * 857967          
+u_str ESTAB     0      0                                                      * 665630                                      * 665629          
+u_str ESTAB     0      0                                                      * 665625                                      * 662812          
+u_str ESTAB     0      0                                     /run/user/1000/bus 25641                                       * 23158           
+u_str ESTAB     0      0                                                      * 21213                                       * 22746           
+u_str ESTAB     0      0                                     /run/user/1000/bus 664719                                      * 658233          
+u_str ESTAB     0      0                                                      * 23994                                       * 2817            
+u_str ESTAB     0      0                                                      * 879585                                      * 879586          
+u_str ESTAB     0      0                                                      * 666740                                      * 666739          
+u_dgr ESTAB     0      0                                                      * 23852                                       * 18552           
+u_str ESTAB     0      0                                                      * 903061                                      * 903062          
+u_str ESTAB     0      0                                                      * 883786                                      * 883787          
+u_str ESTAB     0      0                                                      * 849531                                      * 849530          
+u_str ESTAB     0      0                                                      * 21787                                       * 27667           
+u_str ESTAB     0      0                                                      * 658401                                      * 658402          
+u_str ESTAB     0      0                                                      * 886958                                      * 886959          
+u_str ESTAB     0      0                                                      * 831648                                      * 831647          
+u_str ESTAB     0      0                                                      * 745841                                      * 745842          
+u_str ESTAB     0      0                                                      * 745840                                      * 745839          
+u_str ESTAB     0      0                                                      * 772                                         * 2263            
+u_dgr ESTAB     0      0                                                      * 18604                                       * 18552           
+u_str ESTAB     0      0                                                      * 664886                                      * 664885          
+u_str ESTAB     0      0                                                      * 2810                                        * 2811            
+u_str ESTAB     0      0                                                      * 662970                                      * 662971          
+u_str ESTAB     0      0                                                      * 667680                                      * 667679          
+u_str ESTAB     0      0                                                      * 666735                                      * 666736          
+u_str ESTAB     0      0                                     /run/user/1000/bus 530317                                      * 535736          
+u_str ESTAB     0      0                                                      * 22213                                       * 22214           
+u_dgr UNCONN    0      0                                                      * 19594                                       * 0               
+u_str ESTAB     0      0                                                      * 688632                                      * 688633          
+u_str ESTAB     0      0                                                      * 663902                                      * 663901          
+u_str ESTAB     0      0                                                      * 906037                                      * 906036          
+u_str ESTAB     0      0                                                      * 466422                                      * 467307          
+u_str ESTAB     0      0                                                      * 2359                                        * 2358            
+u_str ESTAB     0      0                                                      * 18877                                       * 18893           
+u_str ESTAB     0      0                                                      * 661140                                      * 661141          
+u_str ESTAB     0      4608                                  @/tmp/.X11-unix/X0 658234                                      * 664732          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 663704                                      * 664730          
+u_str ESTAB     0      0                                     /run/user/1000/bus 661128                                      * 659353          
+u_str ESTAB     0      0                                                      * 658235                                      * 662813          
+u_dgr ESTAB     0      768                                                    * 21797                                       * 21796           
+u_str ESTAB     0      0                                                      * 24890                                       * 2814            
+u_str ESTAB     0      0                                                      * 832692                                      * 832693          
+u_str ESTAB     0      0                                                      * 662006                                      * 662005          
+u_str LISTEN    0      5      /tmp/..com.vivaldi.Vivaldi.rx9lwf/SingletonSocket 659357                                      * 0               
+u_str LISTEN    0      4096                           /run/php-fpm/php-fpm.sock 2364                                        * 0               
+u_str ESTAB     0      0                                                      * 772176                                      * 772177          
+u_str ESTAB     0      0                                                      * 886959                                      * 886958          
+u_str ESTAB     0      0                                                      * 880344                                      * 880345          
+u_str ESTAB     0      0                                                      * 831647                                      * 831648          
+u_str ESTAB     0      0                                                      * 745842                                      * 745841          
+u_str ESTAB     0      0                                                      * 20207                                       * 21270           
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 25784                                       * 27688           
+u_str ESTAB     0      0                                                      * 828207                                      * 828208          
+u_str ESTAB     0      0                                                      * 658350                                      * 658349          
+u_str ESTAB     0      0                                                      * 886207                                      * 886208          
+u_str ESTAB     0      0                                                      * 153453                                      * 151368          
+u_str ESTAB     0      0                                                      * 889642                                      * 889641          
+u_str ESTAB     0      0                                                      * 854141                                      * 854142          
+u_str ESTAB     0      0                                                      * 774170                                      * 774169          
+u_str ESTAB     0      0                                                      * 774169                                      * 774170          
+u_str ESTAB     0      0                                                      * 664728                                      * 663701          
+u_str ESTAB     0      0                                                      * 665623                                      * 665624          
+u_str LISTEN    0      244                        /run/postgresql/.s.PGSQL.5432 19011                                       * 0               
+u_str ESTAB     0      0                                                      * 20796                                       * 815             
+u_str ESTAB     0      0                                                      * 664901                                      * 664900          
+u_str ESTAB     0      0                                                      * 659368                                      * 659369          
+u_str ESTAB     0      0                                                      * 883490                                      * 883489          
+u_str ESTAB     0      0                                                      * 875482                                      * 875481          
+u_str ESTAB     0      0                                                      * 658402                                      * 658401          
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 871381                                      * 869251          
+u_dgr ESTAB     0      0                                                      * 23836                                       * 18550           
+u_dgr ESTAB     0      0                                                      * 18897                                       * 18550           
+u_str ESTAB     0      0                                                      * 680131                                      * 680130          
+u_str ESTAB     0      0                                                      * 670410                                      * 670411          
+u_str ESTAB     0      0                                                      * 672228                                      * 672229          
+u_str ESTAB     0      0                                                      * 669437                                      * 669438          
+u_str ESTAB     0      0                                                      * 658351                                      * 658352          
+u_str ESTAB     0      0                                                      * 888943                                      * 888942          
+u_str ESTAB     0      0                                                      * 689762                                      * 689763          
+u_str ESTAB     0      0                                                      * 666692                                      * 666691          
+u_str ESTAB     0      0                                                      * 659414                                      * 659413          
+u_str ESTAB     0      0                                                      * 659371                                      * 659370          
+u_str ESTAB     0      0                                                      * 659364                                      * 659365          
+u_str LISTEN    0      4096               /run/containerd/containerd.sock.ttrpc 17295                                       * 0               
+u_dgr ESTAB     0      0                                                      * 18726                                       * 18725           
+u_str ESTAB     0      0                                                      * 887370                                      * 887369          
+u_str ESTAB     0      0                                                      * 880345                                      * 880344          
+u_str ESTAB     0      0                                                      * 829702                                      * 829703          
+u_str ESTAB     192    0                                                      * 664732                                      * 658234          
+u_str LISTEN    0      4096                     /run/containerd/containerd.sock 17296                                       * 0               
+u_str ESTAB     0      0                                                      * 15832                                       * 18896           
+u_str ESTAB     0      0                                                      * 661169                                      * 661168          
+u_str ESTAB     0      0                                                      * 875481                                      * 875482          
+u_str ESTAB     0      0                                                      * 832690                                      * 832691          
+u_str ESTAB     0      0                                                      * 661996                                      * 661997          
+u_str ESTAB     0      0                                                      * 903062                                      * 903061          
+u_str ESTAB     0      0                                                      * 662971                                      * 662970          
+u_str ESTAB     0      0                                                      * 664937                                      * 664936          
+u_str ESTAB     0      0                                     /run/user/1000/bus 23325                                       * 25797           
+u_str ESTAB     0      0                            /run/systemd/journal/stdout 15801                                       * 711             
+u_str LISTEN    0      80                               /run/mysqld/mysqld.sock 16074                                       * 0               
+u_str ESTAB     0      0                                                      * 665632                                      * 665631          
+u_str ESTAB     0      0                                                      * 21274                                       * 24011           
+u_str ESTAB     0      0                                                      * 678353                                      * 678354          
+u_str ESTAB     0      0                                                      * 677205                                      * 677206          
+u_str ESTAB     0      0                                                      * 672231                                      * 672230          
+u_str ESTAB     0      0                                                      * 663901                                      * 663902          
+u_str ESTAB     0      0                                                      * 20293                                       * 25651           
+u_str ESTAB     0      0                                     @/tmp/.X11-unix/X0 883363                                      * 884111          
+u_str ESTAB     0      0                                                      * 662027                                      * 662028          
+u_str ESTAB     0      0                            /run/dbus/system_bus_socket 536821                                      * 535743          
+u_str ESTAB     0      0                                                      * 24682                                       * 24681           
+u_str ESTAB     0      1536                                                   * 879584                                      * 879583          
+u_dgr ESTAB     0      0                                                      * 2366                                        * 18550           
+u_str ESTAB     0      0                                                      * 659362                                      * 659363          
+u_str ESTAB     0      0                                                      * 664720                                      * 664721          
+u_str ESTAB     0      0                                                      * 536787                                      * 530296          
+u_str ESTAB     0      0                                                      * 531334                                      * 530294          
+u_seq ESTAB     0      0                                                 @5bff4 664690                                      * 664691          
+u_seq ESTAB     0      0                                                 @5ffc9 664691                                      * 664690          
+u_str LISTEN    0      4096                                  @/tmp/.X11-unix/X0 23927                                       * 0               
+u_seq ESTAB     0      0                                                 @4a868 659328                                      * 659329          
+u_seq ESTAB     0      0                                                 @1b6d8 659320                                      * 659321          
+u_seq ESTAB     0      0                                                 @afd89 659326                                      * 659327          
+u_seq ESTAB     0      0                                                 @c5f27 659321                                      * 659320          
+u_str LISTEN    0      128                                      @kitty-ipc-1000 23084                                       * 0               
+u_str LISTEN    0      128                                             @mykitty 2823                                        * 0               
+icmp6 UNCONN    0      0                                                      *:ipv6-icmp                                   *:*               
+udp   UNCONN    0      0                                            224.0.0.251:mdns                                  0.0.0.0:*               
+udp   UNCONN    0      0                                               10.0.2.2:domain                                0.0.0.0:*               
+udp   ESTAB     0      0                                    192.168.1.91%enp1s0:bootpc                          192.168.1.254:bootps          
+udp   UNCONN    0      0                     [fe80::8b1d:730a:a1c6:c615]%enp1s0:dhcpv6-client                            [::]:*               
+tcp   LISTEN    0      4096                                           127.0.0.1:46749                                 0.0.0.0:*               
+tcp   LISTEN    0      244                                            127.0.0.1:postgresql                            0.0.0.0:*               
+tcp   LISTEN    0      80                                               0.0.0.0:mysql                                 0.0.0.0:*               
+tcp   LISTEN    0      511                                            127.0.0.1:redis                                 0.0.0.0:*               
+tcp   LISTEN    0      128                                            127.0.0.1:opsmessaging                          0.0.0.0:*               
+tcp   LISTEN    0      511                                            127.0.0.1:http                                  0.0.0.0:*               
+tcp   LISTEN    0      100                                            127.0.0.1:x510                                  0.0.0.0:*               
+tcp   LISTEN    0      32                                              10.0.2.2:domain                                0.0.0.0:*               
+tcp   LISTEN    0      4096                                           127.0.0.1:mongodb                               0.0.0.0:*               
+tcp   TIME-WAIT 0      0                                           192.168.1.91:53588                            34.117.59.81:https           
+tcp   ESTAB     0      0                                           192.168.1.91:49756                          109.70.150.121:su-mit-tg       
+tcp   TIME-WAIT 0      0                                           192.168.1.91:47956                          109.70.150.121:su-mit-tg       
+tcp   ESTAB     0      0                                           192.168.1.91:57772                          109.70.150.121:su-mit-tg       
+tcp   ESTAB     0      0                                           192.168.1.91:43310                          109.70.150.121:su-mit-tg       
+tcp   LISTEN    0      244                                                [::1]:postgresql                               [::]:*               
+tcp   LISTEN    0      80                                                  [::]:mysql                                    [::]:*               
+tcp   LISTEN    0      511                                                [::1]:redis                                    [::]:*               
+tcp   LISTEN    0      100                                                [::1]:x510                                     [::]:*               
+tcp   ESTAB     0      0               [2001:8a0:7ac8:1000:ba06:1015:3dac:2aef]:53236              [2a00:1450:4003:80e::2003]:http            
+tcp   ESTAB     0      0               [2001:8a0:7ac8:1000:ba06:1015:3dac:2aef]:55648              [2a00:1450:4003:80c::200a]:https           
