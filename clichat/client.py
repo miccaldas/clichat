@@ -31,7 +31,7 @@ def client():
         s.send(message.encode("ascii"))
         data = s.recv(1024)
         print("Received from the server :", str(data.decode("ascii")))
-        ans = input("\nDo you want to continue(y/n) :")
+        ans = input("\nDo you want to continue(y/n): ")
         if ans == "y":
             continue
         else:
